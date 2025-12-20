@@ -1,4 +1,4 @@
-
+<?php get_header()?>
 
         <div id="content" class="site-content">
             <div id="primary" class="content-area">
@@ -15,9 +15,4 @@
                 </main>
             </div>
         </div>
-        <footer class="site-footer">
-            Footer
-        </footer>
-    </div>
-</body>
-</html>
+<?php get_footer(); ?>
