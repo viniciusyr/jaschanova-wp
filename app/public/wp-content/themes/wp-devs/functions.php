@@ -10,10 +10,21 @@ function wpdevs_enqueue_styles(){
 
 add_action('wp_enqueue_scripts', 'wpdevs_enqueue_styles');
 
-register_nav_menus(
+function wpdevs_config(){
+    register_nav_menus(
     array(
         'wp_devs_main_menu' => 'Main Menu',
         'wp_devs_footer_menu' => 'Footer Menu'
-    )
-);
+        )
+    );
 
+    $args = array(
+        'height' => 225,
+        'width' => 1920
+    );
+    add_theme_support('custom-header', $args);
+    add_theme_support('post-thumbnails');
+
+}
+
+add_action('after_setup_theme', 'wpdevs_config', 0);
