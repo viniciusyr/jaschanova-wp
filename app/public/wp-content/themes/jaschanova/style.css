@@ -371,3 +371,26 @@ Tags: one-column, custom-menu, custom-logo, featured-images, translation-ready
   [hidden] {
     display: none;
   }
+
+/* 2. Theme Specific CSS */
+:root{
+    /* Measurements */
+    --jn-big-padding: 60px 0;
+    --jn-mobile-padding: 20px 0;
+    --jn-light-padding: 0 25px;
+    /* Colors */
+    --jn-pale-rose: #DFC5D2;
+    --jn-rose-gold: #E3BBB9;
+    --jn-light-gray: #CDD9E5;
+    --jn-adore: #B47471;
+    --jn-bright-white: #F5DFC5;
+}
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    font: normal, 21px/2.1rem, 'Nunito', sans-serif;
+}

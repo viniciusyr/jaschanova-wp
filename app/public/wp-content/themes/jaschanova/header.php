@@ -26,10 +26,14 @@
             </section>
             <section class="menu-area">
                 <div class="container">
-                    <nav class="main-menu">
-                       
-                        <?php wp_nav_menu(array('theme_location' => 'wp_devs_main_menu',
-                            'depth' => 2)); ?>
+                    <nav>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#career">Career</a></li>
+                            <li><a href="#skills-tools">Skills & Tools</a></li>
+                            <li><a href="#testimonials">Testimonials</a></li>
+                            <li><a href="#va-life">VA Life</a></li>
+                        </ul>
                     </nav>
                 </div>
             </section>
