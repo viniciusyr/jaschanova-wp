@@ -6,3 +6,5 @@ Stack trace:
 #2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
 #3 {main}
   thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/wp-devs/index.php on line 14
+[29-Dec-2025 22:52:03 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/wp-devs/header.php on line 24
+[29-Dec-2025 22:52:16 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/wp-devs/header.php on line 24

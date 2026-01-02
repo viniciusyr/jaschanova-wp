@@ -11,24 +11,23 @@
             <section class="top-bar">
                 <div class="container">
                     <div class="logo">
-                    Logo
-                    </div>
-                    <div class="search-box">
-                        Search
+                    <?php 
+                        if(has_custom_logo()){
+                            the_custom_logo();
+                        } else {
+                            ?>
+                                <a href="<?php echo esc_url(home_url('/')); ?>">
+                                    <h1><?php bloginfo('name'); ?></h1>
+                                </a>
+                            <?php
+                        } ?>
                     </div>
                 </div>
-                
             </section>
             <section class="menu-area">
                 <div class="container">
                     <nav class="main-menu">
-                        <button class="check-button">
-                            <div class="menu-icon">
-                                <div class="bar1"></div>
-                                <div class="bar2"></div>
-                                <div class="bar3"></div>
-                            </div>
-                        </button>
+                       
                         <?php wp_nav_menu(array('theme_location' => 'wp_devs_main_menu',
                             'depth' => 2)); ?>
                     </nav>
