@@ -10,7 +10,7 @@ if($testimonials->have_posts()):
     $image = get_field('testimonial_image'); 
 if($image){
     $image_id = is_array($image) ? $image['ID'] : $image; 
-    $image_url = wp_get_attachment_image_url($image_id, 'medium');
+    $image_url = wp_get_attachment_image_url($image_id);
 }
 ?>
     <div class="testimonial-item">
