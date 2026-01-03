@@ -394,3 +394,8 @@ body{
     font-family: 'Nunito', sans-serif;
     font: normal, 21px/2.1rem, 'Nunito', sans-serif;
 }
+
+.testimonial-item img {
+    max-width: 150px;  
+    border-radius: 10%; 
+}

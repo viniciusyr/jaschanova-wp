@@ -8,3 +8,365 @@ Stack trace:
   thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/wp-devs/index.php on line 14
 [29-Dec-2025 22:52:03 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/wp-devs/header.php on line 24
 [29-Dec-2025 22:52:16 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/wp-devs/header.php on line 24
+[03-Jan-2026 04:59:09 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/functions.php on line 29
+[03-Jan-2026 04:59:09 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[03-Jan-2026 04:59:09 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[03-Jan-2026 04:59:11 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/functions.php on line 29
+[03-Jan-2026 04:59:33 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/functions.php on line 31
+[03-Jan-2026 04:59:33 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/functions.php on line 31
+[03-Jan-2026 04:59:35 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/functions.php on line 31
+[03-Jan-2026 04:59:35 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/functions.php on line 31
+[03-Jan-2026 04:59:36 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/functions.php on line 31
+[03-Jan-2026 04:59:36 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/functions.php on line 31
+[03-Jan-2026 04:59:42 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_testimonials" not found or invalid function name in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-settings.php(742): do_action('init')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-config.php(103): require_once('/Users/vinicius...')
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-load.php(50): require_once('/Users/vinicius...')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-admin/admin.php(35): require_once('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-admin/edit.php(10): require_once('/Users/vinicius...')
+#7 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php on line 341
+[03-Jan-2026 04:59:42 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_testimonials" not found or invalid function name in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-settings.php(742): do_action('init')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-config.php(103): require_once('/Users/vinicius...')
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-load.php(50): require_once('/Users/vinicius...')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-blog-header.php(13): require_once('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
+#7 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php on line 341
+[03-Jan-2026 04:59:46 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_testimonials" not found or invalid function name in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-settings.php(742): do_action('init')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-config.php(103): require_once('/Users/vinicius...')
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-load.php(50): require_once('/Users/vinicius...')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-admin/admin.php(35): require_once('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-admin/edit.php(10): require_once('/Users/vinicius...')
+#7 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php on line 341
+[03-Jan-2026 04:59:46 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_testimonials" not found or invalid function name in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-settings.php(742): do_action('init')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-config.php(103): require_once('/Users/vinicius...')
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-load.php(50): require_once('/Users/vinicius...')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-blog-header.php(13): require_once('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
+#7 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php on line 341
+[03-Jan-2026 04:59:47 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_testimonials" not found or invalid function name in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-settings.php(742): do_action('init')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-config.php(103): require_once('/Users/vinicius...')
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-load.php(50): require_once('/Users/vinicius...')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-admin/admin.php(35): require_once('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-admin/post-new.php(10): require_once('/Users/vinicius...')
+#7 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php on line 341
+[03-Jan-2026 04:59:47 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_testimonials" not found or invalid function name in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-settings.php(742): do_action('init')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-config.php(103): require_once('/Users/vinicius...')
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-load.php(50): require_once('/Users/vinicius...')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-blog-header.php(13): require_once('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
+#7 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php on line 341
+[03-Jan-2026 04:59:49 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_testimonials" not found or invalid function name in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-settings.php(742): do_action('init')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-config.php(103): require_once('/Users/vinicius...')
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-load.php(50): require_once('/Users/vinicius...')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-admin/admin.php(35): require_once('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-admin/post-new.php(10): require_once('/Users/vinicius...')
+#7 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php on line 341
+[03-Jan-2026 04:59:49 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_testimonials" not found or invalid function name in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-settings.php(742): do_action('init')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-config.php(103): require_once('/Users/vinicius...')
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-load.php(50): require_once('/Users/vinicius...')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-blog-header.php(13): require_once('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
+#7 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php on line 341
+[03-Jan-2026 04:59:49 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_testimonials" not found or invalid function name in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-settings.php(742): do_action('init')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-config.php(103): require_once('/Users/vinicius...')
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-load.php(50): require_once('/Users/vinicius...')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-admin/admin.php(35): require_once('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-admin/edit.php(10): require_once('/Users/vinicius...')
+#7 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php on line 341
+[03-Jan-2026 04:59:49 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_testimonials" not found or invalid function name in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-settings.php(742): do_action('init')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-config.php(103): require_once('/Users/vinicius...')
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-load.php(50): require_once('/Users/vinicius...')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-blog-header.php(13): require_once('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
+#7 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php on line 341
+[03-Jan-2026 04:59:49 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_testimonials" not found or invalid function name in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-settings.php(742): do_action('init')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-config.php(103): require_once('/Users/vinicius...')
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-load.php(50): require_once('/Users/vinicius...')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-admin/admin.php(35): require_once('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-admin/about.php(10): require_once('/Users/vinicius...')
+#7 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php on line 341
+[03-Jan-2026 04:59:49 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_testimonials" not found or invalid function name in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-settings.php(742): do_action('init')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-config.php(103): require_once('/Users/vinicius...')
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-load.php(50): require_once('/Users/vinicius...')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-blog-header.php(13): require_once('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
+#7 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php on line 341
+[03-Jan-2026 04:59:51 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_testimonials" not found or invalid function name in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-settings.php(742): do_action('init')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-config.php(103): require_once('/Users/vinicius...')
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-load.php(50): require_once('/Users/vinicius...')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-admin/admin.php(35): require_once('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-admin/about.php(10): require_once('/Users/vinicius...')
+#7 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php on line 341
+[03-Jan-2026 04:59:51 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_testimonials" not found or invalid function name in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-settings.php(742): do_action('init')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-config.php(103): require_once('/Users/vinicius...')
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-load.php(50): require_once('/Users/vinicius...')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-blog-header.php(13): require_once('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
+#7 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php on line 341
+[03-Jan-2026 04:59:51 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_testimonials" not found or invalid function name in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-settings.php(742): do_action('init')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-config.php(103): require_once('/Users/vinicius...')
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-load.php(50): require_once('/Users/vinicius...')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-admin/admin.php(35): require_once('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-admin/about.php(10): require_once('/Users/vinicius...')
+#7 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php on line 341
+[03-Jan-2026 04:59:51 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_testimonials" not found or invalid function name in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-settings.php(742): do_action('init')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-config.php(103): require_once('/Users/vinicius...')
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-load.php(50): require_once('/Users/vinicius...')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-blog-header.php(13): require_once('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
+#7 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php on line 341
+[03-Jan-2026 04:59:52 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_testimonials" not found or invalid function name in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-settings.php(742): do_action('init')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-config.php(103): require_once('/Users/vinicius...')
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-load.php(50): require_once('/Users/vinicius...')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-admin/admin.php(35): require_once('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-admin/about.php(10): require_once('/Users/vinicius...')
+#7 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php on line 341
+[03-Jan-2026 04:59:52 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_testimonials" not found or invalid function name in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-settings.php(742): do_action('init')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-config.php(103): require_once('/Users/vinicius...')
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-load.php(50): require_once('/Users/vinicius...')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-blog-header.php(13): require_once('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
+#7 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php on line 341
+[03-Jan-2026 04:59:52 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_testimonials" not found or invalid function name in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-settings.php(742): do_action('init')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-config.php(103): require_once('/Users/vinicius...')
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-load.php(50): require_once('/Users/vinicius...')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-admin/admin.php(35): require_once('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-admin/about.php(10): require_once('/Users/vinicius...')
+#7 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php on line 341
+[03-Jan-2026 04:59:52 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_testimonials" not found or invalid function name in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-settings.php(742): do_action('init')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-config.php(103): require_once('/Users/vinicius...')
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-load.php(50): require_once('/Users/vinicius...')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-blog-header.php(13): require_once('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
+#7 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php on line 341
+[03-Jan-2026 04:59:52 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_testimonials" not found or invalid function name in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-settings.php(742): do_action('init')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-config.php(103): require_once('/Users/vinicius...')
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-load.php(50): require_once('/Users/vinicius...')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-admin/admin.php(35): require_once('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-admin/about.php(10): require_once('/Users/vinicius...')
+#7 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php on line 341
+[03-Jan-2026 04:59:52 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_testimonials" not found or invalid function name in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-settings.php(742): do_action('init')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-config.php(103): require_once('/Users/vinicius...')
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-load.php(50): require_once('/Users/vinicius...')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-blog-header.php(13): require_once('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
+#7 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php on line 341
+[03-Jan-2026 04:59:52 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_testimonials" not found or invalid function name in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-settings.php(742): do_action('init')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-config.php(103): require_once('/Users/vinicius...')
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-load.php(50): require_once('/Users/vinicius...')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-admin/admin.php(35): require_once('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-admin/about.php(10): require_once('/Users/vinicius...')
+#7 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php on line 341
+[03-Jan-2026 04:59:52 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_testimonials" not found or invalid function name in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-settings.php(742): do_action('init')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-config.php(103): require_once('/Users/vinicius...')
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-load.php(50): require_once('/Users/vinicius...')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-blog-header.php(13): require_once('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
+#7 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php on line 341
+[03-Jan-2026 04:59:52 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_testimonials" not found or invalid function name in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-settings.php(742): do_action('init')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-config.php(103): require_once('/Users/vinicius...')
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-load.php(50): require_once('/Users/vinicius...')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-admin/admin.php(35): require_once('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-admin/about.php(10): require_once('/Users/vinicius...')
+#7 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php on line 341
+[03-Jan-2026 04:59:52 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_testimonials" not found or invalid function name in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-settings.php(742): do_action('init')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-config.php(103): require_once('/Users/vinicius...')
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-load.php(50): require_once('/Users/vinicius...')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-blog-header.php(13): require_once('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
+#7 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/class-wp-hook.php on line 341
+[03-Jan-2026 05:40:34 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/formatting.php:4496
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/formatting.php(4496): ltrim(Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/testimonials.php(12): esc_url(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(816): require('/Users/vinicius...')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(749): load_template('/Users/vinicius...', false, Array)
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/front-page.php(6): get_template_part('templates/testi...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template-loader.php(125): include('/Users/vinicius...')
+#7 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-blog-header.php(19): require_once('/Users/vinicius...')
+#8 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
+#9 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/formatting.php on line 4496
+[03-Jan-2026 05:40:42 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/formatting.php:4496
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/formatting.php(4496): ltrim(Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/testimonials.php(12): esc_url(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(816): require('/Users/vinicius...')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(749): load_template('/Users/vinicius...', false, Array)
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/front-page.php(6): get_template_part('templates/testi...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template-loader.php(125): include('/Users/vinicius...')
+#7 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-blog-header.php(19): require_once('/Users/vinicius...')
+#8 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
+#9 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/formatting.php on line 4496
+[03-Jan-2026 05:41:03 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/formatting.php:4496
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/formatting.php(4496): ltrim(Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/testimonials.php(12): esc_url(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(816): require('/Users/vinicius...')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(749): load_template('/Users/vinicius...', false, Array)
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/front-page.php(6): get_template_part('templates/testi...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template-loader.php(125): include('/Users/vinicius...')
+#7 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-blog-header.php(19): require_once('/Users/vinicius...')
+#8 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
+#9 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/formatting.php on line 4496
+[03-Jan-2026 05:43:52 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/formatting.php:4496
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/formatting.php(4496): ltrim(Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/testimonials.php(13): esc_url(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(816): require('/Users/vinicius...')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(749): load_template('/Users/vinicius...', false, Array)
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/front-page.php(6): get_template_part('templates/testi...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template-loader.php(125): include('/Users/vinicius...')
+#7 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-blog-header.php(19): require_once('/Users/vinicius...')
+#8 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
+#9 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/formatting.php on line 4496
+[03-Jan-2026 05:43:53 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/formatting.php:4496
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/formatting.php(4496): ltrim(Array)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/testimonials.php(13): esc_url(Array)
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(816): require('/Users/vinicius...')
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(749): load_template('/Users/vinicius...', false, Array)
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/front-page.php(6): get_template_part('templates/testi...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template-loader.php(125): include('/Users/vinicius...')
+#7 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-blog-header.php(19): require_once('/Users/vinicius...')
+#8 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
+#9 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/formatting.php on line 4496
+[03-Jan-2026 05:53:19 UTC] PHP Warning:  Undefined variable $image_url in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/testimonials.php on line 17

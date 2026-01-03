@@ -9,3 +9,16 @@ function jn_enqueue_styles(){
 }
 
 add_action('wp_enqueue_scripts', 'jn_enqueue_styles');
+
+function register_testimonials_cpt() {
+    register_post_type('testimonials', [
+        'labels' => [
+            'name' => 'Testimonials',
+            'singular_name' => 'Testimonial'
+        ],
+        'public' => false,
+        'show_ui' => true,
+        'supports' => ['title'],
+    ]);
+}
+add_action('init', 'register_testimonials_cpt');
