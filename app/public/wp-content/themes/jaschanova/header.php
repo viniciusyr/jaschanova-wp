@@ -17,16 +17,13 @@
                         } else {
                             ?>
                                 <a href="<?php echo esc_url(home_url('/')); ?>">
-                                    <h1><?php bloginfo('name'); ?></h1>
+                                    <h1>JaschaNova</h1>
                                 </a>
                             <?php
                         } ?>
                     </div>
-                </div>
-            </section>
-            <section class="menu-area">
-                <div class="container">
-                    <nav>
+                    <div class="navbar">
+                        <nav>
                         <ul>
                             <li><a href="#about">About</a></li>
                             <li><a href="#career">Career</a></li>
@@ -35,6 +32,8 @@
                             <li><a href="#va-life">VA Life</a></li>
                         </ul>
                     </nav>
+                    </div>
                 </div>
             </section>
+                    
         </header>
