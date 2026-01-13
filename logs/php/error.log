@@ -370,3 +370,137 @@ Stack trace:
 #9 {main}
   thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/formatting.php on line 4496
 [03-Jan-2026 05:53:19 UTC] PHP Warning:  Undefined variable $image_url in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/testimonials.php on line 17
+[13-Jan-2026 02:36:47 UTC] PHP Warning:  Undefined variable $time in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php on line 48
+[13-Jan-2026 02:40:41 UTC] PHP Warning:  Undefined variable $time in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php on line 48
+[13-Jan-2026 03:35:04 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function esc_html(), 0 passed in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php on line 50 and exactly 1 expected in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/formatting.php:4689
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php(50): esc_html()
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(816): require('/Users/vinicius...')
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(749): load_template('/Users/vinicius...', false, Array)
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/front-page.php(3): get_template_part('templates/hero')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template-loader.php(125): include('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-blog-header.php(19): require_once('/Users/vinicius...')
+#7 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
+#8 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/formatting.php on line 4689
+[13-Jan-2026 03:35:09 UTC] PHP Fatal error:  Uncaught TypeError: exp_calculator(): Argument #1 ($initial_date) must be of type string, null given, called in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php on line 50 and defined in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php:17
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php(50): exp_calculator(NULL)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(816): require('/Users/vinicius...')
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(749): load_template('/Users/vinicius...', false, Array)
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/front-page.php(3): get_template_part('templates/hero')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template-loader.php(125): include('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-blog-header.php(19): require_once('/Users/vinicius...')
+#7 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
+#8 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php on line 17
+[13-Jan-2026 03:35:10 UTC] PHP Fatal error:  Uncaught TypeError: exp_calculator(): Argument #1 ($initial_date) must be of type string, null given, called in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php on line 50 and defined in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php:17
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php(50): exp_calculator(NULL)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(816): require('/Users/vinicius...')
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(749): load_template('/Users/vinicius...', false, Array)
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/front-page.php(3): get_template_part('templates/hero')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template-loader.php(125): include('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-blog-header.php(19): require_once('/Users/vinicius...')
+#7 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
+#8 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php on line 17
+[13-Jan-2026 03:35:48 UTC] PHP Fatal error:  Uncaught TypeError: exp_calculator(): Argument #1 ($initial_date) must be of type string, null given, called in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php on line 50 and defined in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php:17
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php(50): exp_calculator(NULL)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(816): require('/Users/vinicius...')
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(749): load_template('/Users/vinicius...', false, Array)
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/front-page.php(3): get_template_part('templates/hero')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template-loader.php(125): include('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-blog-header.php(19): require_once('/Users/vinicius...')
+#7 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
+#8 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php on line 17
+[13-Jan-2026 03:35:49 UTC] PHP Fatal error:  Uncaught TypeError: exp_calculator(): Argument #1 ($initial_date) must be of type string, null given, called in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php on line 50 and defined in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php:17
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php(50): exp_calculator(NULL)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(816): require('/Users/vinicius...')
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(749): load_template('/Users/vinicius...', false, Array)
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/front-page.php(3): get_template_part('templates/hero')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template-loader.php(125): include('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-blog-header.php(19): require_once('/Users/vinicius...')
+#7 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
+#8 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php on line 17
+[13-Jan-2026 03:35:50 UTC] PHP Fatal error:  Uncaught TypeError: exp_calculator(): Argument #1 ($initial_date) must be of type string, null given, called in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php on line 50 and defined in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php:17
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php(50): exp_calculator(NULL)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(816): require('/Users/vinicius...')
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(749): load_template('/Users/vinicius...', false, Array)
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/front-page.php(3): get_template_part('templates/hero')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template-loader.php(125): include('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-blog-header.php(19): require_once('/Users/vinicius...')
+#7 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
+#8 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php on line 17
+[13-Jan-2026 03:35:52 UTC] PHP Fatal error:  Uncaught TypeError: exp_calculator(): Argument #1 ($initial_date) must be of type string, null given, called in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php on line 50 and defined in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php:17
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php(50): exp_calculator(NULL)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(816): require('/Users/vinicius...')
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(749): load_template('/Users/vinicius...', false, Array)
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/front-page.php(3): get_template_part('templates/hero')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template-loader.php(125): include('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-blog-header.php(19): require_once('/Users/vinicius...')
+#7 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
+#8 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php on line 17
+[13-Jan-2026 03:35:53 UTC] PHP Fatal error:  Uncaught TypeError: exp_calculator(): Argument #1 ($initial_date) must be of type string, null given, called in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php on line 50 and defined in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php:17
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php(50): exp_calculator(NULL)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(816): require('/Users/vinicius...')
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(749): load_template('/Users/vinicius...', false, Array)
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/front-page.php(3): get_template_part('templates/hero')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template-loader.php(125): include('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-blog-header.php(19): require_once('/Users/vinicius...')
+#7 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
+#8 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php on line 17
+[13-Jan-2026 03:36:11 UTC] PHP Fatal error:  Uncaught TypeError: exp_calculator(): Argument #1 ($initial_date) must be of type int, null given, called in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php on line 50 and defined in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php:17
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php(50): exp_calculator(NULL)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(816): require('/Users/vinicius...')
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(749): load_template('/Users/vinicius...', false, Array)
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/front-page.php(3): get_template_part('templates/hero')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template-loader.php(125): include('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-blog-header.php(19): require_once('/Users/vinicius...')
+#7 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
+#8 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php on line 17
+[13-Jan-2026 03:36:12 UTC] PHP Fatal error:  Uncaught TypeError: exp_calculator(): Argument #1 ($initial_date) must be of type int, null given, called in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php on line 50 and defined in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php:17
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php(50): exp_calculator(NULL)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(816): require('/Users/vinicius...')
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(749): load_template('/Users/vinicius...', false, Array)
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/front-page.php(3): get_template_part('templates/hero')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template-loader.php(125): include('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-blog-header.php(19): require_once('/Users/vinicius...')
+#7 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
+#8 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php on line 17
+[13-Jan-2026 03:37:37 UTC] PHP Fatal error:  Uncaught TypeError: exp_calculator(): Argument #1 ($initial_date) must be of type int, null given, called in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php on line 49 and defined in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php:17
+Stack trace:
+#0 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php(49): exp_calculator(NULL)
+#1 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(816): require('/Users/vinicius...')
+#2 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template.php(749): load_template('/Users/vinicius...', false, Array)
+#3 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#4 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/front-page.php(3): get_template_part('templates/hero')
+#5 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-includes/template-loader.php(125): include('/Users/vinicius...')
+#6 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-blog-header.php(19): require_once('/Users/vinicius...')
+#7 /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/index.php(17): require('/Users/vinicius...')
+#8 {main}
+  thrown in /Users/viniciusrodrigues/Local Sites/jaschanova-wp/app/public/wp-content/themes/jaschanova/templates/hero.php on line 17
