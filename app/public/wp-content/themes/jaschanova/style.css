@@ -536,8 +536,151 @@ a:hover::after {
   min-height: 500px;
 }
 
+.hero-doodles {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.hero-doodle {
+  position: absolute;
+  width: 120px;
+  height: auto;
+  opacity: 0.55;
+  transform: translate(-50%, -50%) translate(var(--tx, 0px), var(--ty, 0px))
+    scale(0.85) rotate(var(--rot, 0deg));
+  transition: transform 0.8s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.4s ease;
+  filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.08));
+}
+
+/* Lamp */
+.doodle-1 {
+  top: 42%;
+  left: 50%;
+  width: 80px;
+  --tx: -10px;
+  --ty: 10px;
+  --rot: -8deg;
+  --tx-hover: -130px;
+  --ty-hover: -40px;
+  --rot-hover: -18deg;
+}
+
+/* Email */
+.doodle-2 {
+  top: 42%;
+  left: 50%;
+  width: 120px;
+  --tx: -30px;
+  --ty: 10px;
+  --rot: -8deg;
+  --tx-hover: 30px;
+  --ty-hover: -140px;
+  --rot-hover: -18deg;
+}
+
+/* Plane */
+.doodle-3 {
+  top: 52%;
+  left: 50%;
+  width: 150px;
+  --tx: -10px;
+  --ty: 30px;
+  --rot: 10deg;
+  --tx-hover: -240px;
+  --ty-hover: 80px;
+  --rot-hover: 22deg;
+}
+
+/* Calculator */
+.doodle-4 {
+  top: 48%;
+  left: 50%;
+  width: 100px;
+  --tx: 20px;
+  --ty: -10px;
+  --rot: -4deg;
+  --tx-hover: 250px;
+  --ty-hover: 110px;
+  --rot-hover: -12deg;
+}
+
+/* Laptop */
+.doodle-5 {
+  top: 58%;
+  left: 50%;
+  width: 50px;
+  --tx: 20px;
+  --ty: -10px;
+  --rot: -4deg;
+  --tx-hover: -110px;
+  --ty-hover: 90px;
+  --rot-hover: -12deg;
+}
+
+/* Plan-list */
+.doodle-6 {
+  top: 58%;
+  left: 50%;
+  width: 50px;
+  --tx: -30px;
+  --ty: 10px;
+  --rot: -8deg;
+  --tx-hover: -90px;
+  --ty-hover: 110px;
+  --rot-hover: -12deg;
+}
+
+/* GenAI */
+.doodle-7 {
+  top: 38%;
+  left: 50%;
+  width: 80px;
+  --tx: 20px;
+  --ty: -10px;
+  --rot: -4deg;
+  --tx-hover: 110px;
+  --ty-hover: -20px;
+  --rot-hover: -12deg;
+}
+
+/* Clock */
+.doodle-8 {
+  top: 52%;
+  left: 50%;
+  width: 120px;
+  --tx: 20px;
+  --ty: -10px;
+  --rot: -4deg;
+  --tx-hover: 200px;
+  --ty-hover: -50px;
+  --rot-hover: -12deg;
+}
+
+/* Hearth */
+.doodle-9 {
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  --tx: 0px;
+  --ty: 0px;
+  --rot: 0deg;
+  --tx-hover: 0px;
+  --ty-hover: 0px;
+  --rot-hover: 0deg;
+}
+
+.hero-container:has(.hero-image:hover) .hero-doodle {
+  opacity: 1;
+  transform: translate(-50%, -50%) translate(var(--tx-hover, 0px), var(--ty-hover, 0px))
+    scale(1) rotate(var(--rot-hover, 0deg));
+}
+
 .hero-image {
-  position: relative;
+  position: absolute;
+  max-width: 450px;
+  bottom: 0;
   z-index: 2;
   transition: transform 0.7s ease;
 }
@@ -550,8 +693,8 @@ a:hover::after {
 
 .bg-circle {
   position: absolute;
-  width: 600px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
   background: var(--jn-light-gray);
   border-radius: 50%;
   top: 100%;
@@ -559,6 +702,21 @@ a:hover::after {
   transform: translate(-50%, -50%);
   z-index: -1;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.hero-center {
+  font-size: 4.5rem;
+  line-height: 1;
+  top: 0;
+  font-weight: 200;
+  position: absolute;
+  z-index: 0;
+  text-align: center;
+  transition: opacity 0.6s ease;
+}
+
+.hero-center .second-text {
+  font-size: 4rem;
 }
 
 .hero-left {
@@ -576,7 +734,7 @@ a:hover::after {
   right: 0;
   top: 40%;
   z-index: 3;
-  text-align: left;
+  text-align: right;
 }
 
 .hero-left,
@@ -586,9 +744,16 @@ a:hover::after {
 
 .hero-container:has(.hero-image:hover) .hero-left,
 .hero-container:has(.hero-image:hover) .hero-right {
-  top: 0;
+  top: 5%;
   transform: translateY(0);
 }
+
+.hero-container:has(.hero-image:hover) .hero-center {
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+
 
 .hero-right strong {
   font-size: 2rem;
@@ -703,6 +868,7 @@ a:hover::after {
 }
 
 /* Testimonials */
+
 
 .testimonial-item img {
     max-width: 150px;  

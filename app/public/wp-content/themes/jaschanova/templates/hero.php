@@ -20,7 +20,6 @@ function exp_calculator(int $initial_date): int {
 
     return $initial->diff($today)->y;
 }
-
 ?>
 
 <section class="hero-section">
@@ -28,6 +27,27 @@ function exp_calculator(int $initial_date): int {
     <div class="hero-container">
       <div class="bg-circle">
 
+      </div>
+      <div class="hero-doodles" aria-hidden="true">
+        <img class="hero-doodle doodle-1" src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/doodles/doodle-1.png'); ?>" alt="">
+        <img class="hero-doodle doodle-2" src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/doodles/doodle-2.svg'); ?>" alt="">
+        <img class="hero-doodle doodle-3" src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/doodles/doodle-3.png'); ?>" alt="">
+        <img class="hero-doodle doodle-4" src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/doodles/doodle-4.png'); ?>" alt="">
+        <img class="hero-doodle doodle-5" src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/doodles/doodle-5.svg'); ?>" alt="">
+        <img class="hero-doodle doodle-6" src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/doodles/doodle-6.png'); ?>" alt="">
+        <img class="hero-doodle doodle-7" src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/doodles/doodle-7.png'); ?>" alt="">
+        <img class="hero-doodle doodle-8" src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/doodles/doodle-8.svg'); ?>" alt="">
+         <img class="hero-doodle doodle-9" src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/doodles/doodle-9.png'); ?>" alt="">
+      </div>
+      <div class="hero-center">
+        I'm Jascha,
+        <br>
+        <div class="second-text">
+          Virtual Assistant
+        </div>
+      </div>
+      <div class="animation">
+        
       </div>
       <div class="hero-left">
         <?php if($hero_title): ?>
