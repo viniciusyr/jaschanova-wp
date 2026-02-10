@@ -10,28 +10,30 @@
         <header>
             <section class="top-bar">
                 <div class="container">
-                    <div class="logo">
-                    <?php 
-                        if(has_custom_logo()){
-                            the_custom_logo();
-                        } else {
-                            ?>
-                                <a href="<?php echo esc_url(home_url('/')); ?>">
-                                    <h1>JaschaNova</h1>
-                                </a>
-                            <?php
-                        } ?>
-                    </div>
-                    <div class="navbar">
-                        <nav>
-                        <ul>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#career">Career</a></li>
-                            <li><a href="#skills-tools">Skills & Tools</a></li>
-                            <li><a href="#testimonials">Testimonials</a></li>
-                            <li><a href="#va-life">VA Life</a></li>
-                        </ul>
-                    </nav>
+                    <div class="top-container">
+                        <div class="logo">
+                        <?php 
+                            if(has_custom_logo()){
+                                the_custom_logo();
+                            } else {
+                                ?>
+                                    <a href="<?php echo esc_url(home_url('/')); ?>">
+                                        <h1>JaschaNova</h1>
+                                    </a>
+                                <?php
+                            } ?>
+                        </div>
+                        <div class="navbar">
+                            <nav>
+                            <ul>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#career">Career</a></li>
+                                <li><a href="#skills-tools">Skills & Tools</a></li>
+                                <li><a href="#testimonials">Testimonials</a></li>
+                                <li><a href="#va-life">VA Life</a></li>
+                            </ul>
+                        </nav>
+                        </div>
                     </div>
                 </div>
             </section>

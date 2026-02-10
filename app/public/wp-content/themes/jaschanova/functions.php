@@ -7,8 +7,9 @@ function jn_enqueue_styles(){
     'google-fonts',
     'https://fonts.googleapis.com/css2?family=Galada&family=Montserrat:wght@400;700&display=swap',
     array(),
-    null
-);
+    null );
+
+    wp_enqueue_style('font-awesome', get_template_directory_uri() . '/assets/fontawesome/css/all.min.css', array(), '7.1.0');
 
     // wp_enqueue_script('dropdown', get_template_directory_uri().'/js/dropdown.js', array(), '1.0', true );
 }
@@ -27,3 +28,4 @@ function register_testimonials_cpt() {
     ]);
 }
 add_action('init', 'register_testimonials_cpt');
+

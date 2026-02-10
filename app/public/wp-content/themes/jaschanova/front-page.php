@@ -1,4 +1,4 @@
-<div class="container">
+<div class="front-page-wrapper">
 <?php get_header(); ?>
 <?php get_template_part('templates/hero'); ?>
 <?php get_template_part('templates/about'); ?>
