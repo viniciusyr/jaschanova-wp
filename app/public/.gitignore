@@ -1,0 +1,25 @@
+# OS
+.DS_Store
+
+# Local dev / tooling
+/local-xdebuginfo.php
+
+# WordPress core (keep root files, ignore core folders)
+/wp-admin/
+/wp-includes/
+
+# wp-content: keep only the jaschanova theme and index.php
+/wp-content/*
+!/wp-content/index.php
+!/wp-content/themes/
+/wp-content/themes/*
+!/wp-content/themes/jaschanova/
+!/wp-content/themes/jaschanova/**
+
+# Ignore heavy or generated content
+/wp-content/plugins/
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/upgrade-temp-backup/
+/wp-content/cache/
+/wp-content/languages/
