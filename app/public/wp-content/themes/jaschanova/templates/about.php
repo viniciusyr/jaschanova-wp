@@ -14,6 +14,7 @@ if($about_image){
 }
 ?>
 <section id="about" class="about-section">
+    <div class="container">
     <div class="about-container">
         <div class="left-box">
             <?php if($image_url): ?>
@@ -47,6 +48,6 @@ if($about_image){
             </div>
 
         </div>
-        
+        </div>
     </div>
 </section>

@@ -815,13 +815,13 @@ a:hover::after {
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-color: var(--jn-rose-gold);
+    border-radius: 30px;
 }
 
 .about-container {
     width: 100%;
     height: 500px;
-    background-color: var(--jn-rose-gold);
-    border-radius: 25px;
     display: flex;
     flex-direction: row;
 
