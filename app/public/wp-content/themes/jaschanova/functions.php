@@ -12,6 +12,8 @@ function jn_enqueue_styles(){
     wp_enqueue_style('font-awesome', get_template_directory_uri() . '/assets/fontawesome/css/all.min.css', array(), '7.1.0');
 
     wp_enqueue_script('services-carousel', get_template_directory_uri() . '/js/services-carousel.js', array(), '1.0', true );
+    
+    wp_enqueue_script('testimonials-carousel', get_template_directory_uri() . '/js/testimonials-carousel.js', array(), '1.0', true );
 
     // wp_enqueue_script('dropdown', get_template_directory_uri().'/js/dropdown.js', array(), '1.0', true );
 }
@@ -39,14 +41,77 @@ function register_testimonials_cpt() {
     register_post_type('testimonials', [
         'labels' => [
             'name' => 'Testimonials',
-            'singular_name' => 'Testimonial'
+            'singular_name' => 'Testimonial',
+            'add_new' => 'Add Testimonial',
+            'add_new_item' => 'Add New Testimonial',
+            'edit_item' => 'Edit Testimonial',
         ],
         'public' => false,
         'show_ui' => true,
+        'show_in_menu' => true,
         'supports' => ['title'],
+        'menu_icon' => 'dashicons-format-quote',
     ]);
 }
 add_action('init', 'register_testimonials_cpt');
+
+function register_acf_fields_for_testimonials() {
+    if ( function_exists( 'acf_add_local_field_group' ) ) {
+        acf_add_local_field_group( array(
+            'key' => 'group_testimonials',
+            'title' => 'Testimonial Information',
+            'fields' => array(
+                array(
+                    'key' => 'field_testimonial_image',
+                    'label' => 'Client Image',
+                    'name' => 'testimonial_image',
+                    'type' => 'image',
+                    'return_format' => 'array',
+                    'preview_size' => 'thumbnail',
+                ),
+                array(
+                    'key' => 'field_client_name',
+                    'label' => 'Client Name',
+                    'name' => 'client_name',
+                    'type' => 'text',
+                    'placeholder' => 'e.g., John Doe',
+                ),
+                array(
+                    'key' => 'field_client_position',
+                    'label' => 'Position',
+                    'name' => 'client_position',
+                    'type' => 'text',
+                    'placeholder' => 'e.g., CEO',
+                ),
+                array(
+                    'key' => 'field_client_company',
+                    'label' => 'Company',
+                    'name' => 'client_company',
+                    'type' => 'text',
+                    'placeholder' => 'e.g., Google',
+                ),
+                array(
+                    'key' => 'field_testimonial_text',
+                    'label' => 'Testimonial Text',
+                    'name' => 'testimonial_text',
+                    'type' => 'textarea',
+                    'rows' => 4,
+                    'placeholder' => 'Enter the client testimonial...',
+                ),
+            ),
+            'location' => array(
+                array(
+                    array(
+                        'param' => 'post_type',
+                        'operator' => '==',
+                        'value' => 'testimonials',
+                    ),
+                ),
+            ),
+        ) );
+    }
+}
+add_action('acf/init', 'register_acf_fields_for_testimonials');
 
 function register_about_cpt() {
     register_post_type('about', [
